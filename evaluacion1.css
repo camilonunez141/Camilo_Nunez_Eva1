@@ -1,0 +1,22 @@
+/* Se asigna letra tipo Arial para la página*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  Título y el final de la página, letra color blanco, espacio de 15px con fondo color azul, y texto alineado al centro*/
+#Titulo, #Final{
+    padding: 15px;
+    color: white;
+    text-align: center;
+    background-color: rgb(35, 74, 182);
+}
+
+/* Los tres subtítulos de la página, con letra color rojo*/
+#Subtitulo1, #Subtitulo2, #Subtitulo3{
+    color:rgb(207, 22, 22);
+}
+
+/* El cuerpo de la página tiene un margen de 20px*/
+body {
+    margin: 20px;
+}
